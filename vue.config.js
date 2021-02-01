@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath: '/yusheng',
   devServer: {
     proxy: {
       '/api2': {
