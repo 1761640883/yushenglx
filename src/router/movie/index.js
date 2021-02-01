@@ -21,7 +21,7 @@ export default {
         {
             path: 'detail/1/:id',
             components: {
-                default: ()=>import('@/components/nowplaying'),
+                // default: ()=>import('@/components/nowplaying'),
                 detail: ()=>import('@/views/movie/detail')
             },
             props: {
@@ -31,7 +31,7 @@ export default {
         {
             path: 'detail/2/:id',
             components: {
-                default: ()=>import('@/components/comingsson'),
+                // default: ()=>import('@/components/comingsson'),
                 detail: ()=>import('@/views/movie/detail')
             },
             props: {
